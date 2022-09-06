@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
+
 * {
     margin: 0; /* reset */
     padding: 0; /* reset */
     box-sizing: border-box; /* box-sizing rule */
 }
+
 body {
     min-height: 100vh;
     width: 1440px;
@@ -18,18 +21,21 @@ body {
     font-weight: 400;
     background:  var(--light-gray);
 }
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
+
 .content {
     background: var(--white);
     width: 320px;
     height: 500px;
     border-radius: 20px;
 }
+
 .img {
     display: block;
     width: 100%;
@@ -37,10 +43,12 @@ body {
     padding: 15px 15px;
     border-radius: 8%;
 }
+
 .text {
     padding-left: 12%;
     padding-right: 12%;
 }
+
 header {
     font-size: 22px;
     font-weight: bold;
@@ -48,19 +56,23 @@ header {
     text-align: center;
     padding-block: 10px;
 }
+
 p {
     font-size: 15px;
     color: var(--grayish-blue);
     text-align: center;
 }
+
 .logo {
     width: auto;
     max-height: 15px;
     margin-right: 4px;
 }
+
 .attribution p {
     color: var(--dark-blue);
 }
+
 a {
     text-decoration: none;
     color: inherit;

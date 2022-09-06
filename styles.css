@@ -55,6 +55,8 @@ p {
     max-height: 15px;
     margin-right: 4px;
 }
+.attribution {
+    position: fixed;
 .attribution p {
     color: var(--dark-blue);
     text-align: center;

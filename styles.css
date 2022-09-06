@@ -60,6 +60,7 @@ p {
 }
 .attribution p {
     color: var(--dark-blue);
+    text-align: center;
 }
 a {
     text-decoration: none;

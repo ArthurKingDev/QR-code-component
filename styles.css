@@ -23,7 +23,7 @@ body {
     max-width: 320px;
     border-radius: 20px;
     padding: 15px 15px 32px 15px;
-    margin: 0 auto;
+    margin: 4em auto;
 }
 .img {
     display: block;
@@ -33,18 +33,19 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--dark-blue);
-    margin: 25px auto;
+    margin: 20px auto;
     text-align: center;
 }
 p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--grayish-blue);
-    margin: 25px auto;
+    margin: 20px auto;
     text-align: center;
-}
+    text-justify: distribute-all-lines;
+}   
 .logo {
     width: auto;
     max-height: 15px;
@@ -52,16 +53,23 @@ p {
 }
 .attribution p {
     color: var(--dark-blue);
+    margin: 0 auto;
     text-align: center;
+    text-justify: newspaper;
 }
 a {
     text-decoration: none;
     color: inherit;
 }
-
 /* Mobile devices */
 @media screen and (max-width: 375px) {
-    body {
-        max-width: 375px;
+    .card {
+        margin: 2em auto;
+    }
+}
+/* Desktop devices */
+@media screen and (min-width:1440px) {
+    .card {
+        margin: 12em auto;
     }
 }

@@ -11,24 +11,19 @@
     box-sizing: border-box; /* box-sizing rule */
 }
 body {
+    width: 100%;
     min-height: 100vh;
     line-height: 1.4;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     background:  var(--light-gray);
 }
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-.content {
+.card {
     background: var(--white);
     max-width: 320px;
-    height: auto;
     border-radius: 20px;
-    padding: 15px 15px;
+    padding: 15px 15px 32px 15px;
+    margin: 0 auto;
 }
 .img {
     display: block;
@@ -36,28 +31,24 @@ body {
     height: 60%;
     border-radius: 8%;
 }
-.text {
-    margin: 0 38px;
-}
+
 h1 {
     font-size: 2rem;
     font-weight: bold;
     color: var(--dark-blue);
+    margin: 25px auto;
     text-align: center;
-    padding-block: 10px;
 }
 p {
-    font-size: 0.5rem;
+    font-size: 1rem;
     color: var(--grayish-blue);
+    margin: 25px auto;
     text-align: center;
 }
 .logo {
     width: auto;
     max-height: 15px;
     margin-right: 4px;
-}
-.attribution {
-    position: fixed;
 }
 .attribution p {
     color: var(--dark-blue);
@@ -72,6 +63,5 @@ a {
 @media screen and (max-width: 375px) {
     body {
         max-width: 375px;
-        min-height: 100vh;
     }
 }

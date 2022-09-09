@@ -36,8 +36,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 I learnt how to scale a large image file to fit its parent container and style it.
 
-To see how you can add code snippets, see below:
-
 ```css
 .img {
     display: block;

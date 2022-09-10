@@ -23,7 +23,6 @@ body {
     max-width: 320px;
     border-radius: 20px;
     padding: 15px 15px 32px 15px;
-    margin: 4em auto;
 }
 .img {
     display: block;
@@ -55,7 +54,7 @@ p {
     color: var(--dark-blue);
     margin: 0 auto;
     text-align: center;
-    text-justify: newspaper;
+    text-justify: distribute-all-lines;
 }
 a {
     text-decoration: none;
@@ -63,13 +62,19 @@ a {
 }
 /* Mobile devices */
 @media screen and (max-width: 375px) {
-    .card {
-        margin: 2em auto;
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 /* Desktop devices */
-@media screen and (min-width:1440px) {
-    .card {
-        margin: 12em auto;
+@media screen and (min-width:1000px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
